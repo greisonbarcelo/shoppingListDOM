@@ -1,0 +1,11 @@
+header, div{
+    display: flex;
+    justify-content: center;
+}
+ul, li{
+    margin: 12px;
+    padding: 12px;
+}
+p, input{
+    margin-right: 12px;
+}
