@@ -17,9 +17,17 @@
             return a * b;
         }
 
-        function capitalize(str){
-            
+        function capitalize(name){
+            let newStr = name[0].toUpperCase() + name.slice(1);
+            return newStr;
         }
+        //console.log(capitalize('asdfF'));
+        function lastLetter(last){
+            let lastIndex = last.length - 1;
+            return last[lastIndex];
+        }
+        console.log(lastLetter('greison'));
+
     </script>
 </body>
 </html>
